@@ -1,2 +1,12 @@
-# assistente_financeiro
-Será capaz de auxiliar, porém não recomendar compras de ações.
+## Assistente Financeiro
+Como é um projeto particular, tem como objeto principal o aprendizado no desenvolvimento da linguagem em Python, API´s e plataformas low-code para acelerar o front-end, o assistente financeiro busca analisar Fundos Imbobiliários e retornar recomendações de ativos para compra.
+## 1. Ferramentas
+  - Fonte B3 e plataformas com apis públicas
+   ### Tecnologias:
+  -   Linguagem: Python
+  -   IA Generativa: Gemini
+  ### Indicadores Essenciais:
+- P/VP: Relação entre preço por cota e valor patrimonial líquido.
+- Dividend Yield: Retorno anual em dividendos, considerando o preço da cota.
+- IDY: Índice de Dividendos Yield, comparando o FII com o Ibovespa.
+- Ibovespa Plus Spread: Diferença entre o retorno do FII e do Ibovespa.
