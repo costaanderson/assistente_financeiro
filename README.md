@@ -1,9 +1,10 @@
 ## Assistente Financeiro
 Como é um projeto particular, tem como objeto principal o aprendizado no desenvolvimento da linguagem em Python, API´s e plataformas low-code para acelerar o front-end, o assistente financeiro busca analisar Fundos Imbobiliários e retornar recomendações de ativos para compra.
 ## 1. Ferramentas
-  - Fonte B3 e plataformas com apis públicas
+  - Fonte de utilização para acessar os FIIs é o seite <https://www.fundsexplorer.com.br/ranking>
    ### Tecnologias:
   -   Linguagem: Python
+  -   Web Scraping para realizar a raspagem do site
   -   IA Generativa: Gemini
   ### Indicadores Essenciais:
 - Preço atual
