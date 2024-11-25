@@ -1,19 +1,25 @@
 ## Assistente Financeiro
-Como é um projeto particular, tem como objeto principal o aprendizado no desenvolvimento da linguagem em Python, API´s e plataformas low-code para acelerar o front-end, o assistente financeiro busca analisar Fundos Imbobiliários e retornar recomendações de ativos para compra.
+Este projeto é uma iniciativa particular, com o objetivo principal de aprimorar habilidades em Python, utilizando técnicas de web scraping e análise de dados. O assistente foca na análise de Fundos de Investimento Imobiliário (FIIs), permitindo a criação de um dataframe com informações completas sobre os ativos, seguido de tratamento e análise fundamentalista dos dados. Além disso, o projeto possibilita a seleção de até 10 ativos com maior potencial, utilizando inteligência artificial para interpretar dados relevantes e gerar bullets points cruciais para tomadas de decisão em compras ou vendas.
+
+## Objetivo
+Com essa abordagem, o Assistente Financeiro em Python visa proporcionar um fluxo eficiente de coleta, tratamento, análise e interpretação de dados, otimizando decisões financeiras de forma objetiva e fundamentada.
+
 ## 1. Ferramentas
-  - Fonte de utilização para acessar os FIIs é o seite <https://www.fundsexplorer.com.br/ranking>
-   ### Tecnologias:
-  -   Linguagem: Python
-  -   Web Scraping para realizar a raspagem do site
-  -   IA Generativa: Gemini
-  ### Indicadores Essenciais:
-- Preço atual
-- P/VP: Relação entre preço por cota e valor patrimonial líquido.
-- Dividend Yield: Retorno anual em dividendos, considerando o preço da cota.
-- Dividendo(%)
-- Patrimônio
-- P/VPA
-- Vacância
-- Qtd de ativos
-- IDY: Índice de Dividendos Yield, comparando o FII com o Ibovespa.
-- Ibovespa Plus Spread: Diferença entre o retorno do FII e do Ibovespa.
+ - Realizar web scraping do site Funds Explorer para coletar dados atualizados sobre FIIs.
+ - Criar um banco de dados consolidado para análise fundamentalista.
+ - Selecionar automaticamente os 10 ativos mais promissores com base em indicadores financeiros.
+ - Utilizar IA generativa para interpretar informações e destacar os pontos mais importantes sobre cada ativo.   ### Tecnologias:
+
+### Indicadores Essenciais:
+Os principais indicadores considerados para a análise e seleção dos FIIs incluem:
+
+ - Preço Atual: Valor de mercado da cota no momento.
+ - P/VP (Preço/Valor Patrimonial): Relação entre o preço da cota e o valor patrimonial líquido.
+ - Dividend Yield: Retorno anual em dividendos com base no preço da cota.
+ - Dividendo (%): Porcentagem do retorno em dividendos.
+ - Patrimônio: Valor total do patrimônio líquido do fundo.
+ - P/VPA: Relação entre o preço e o valor patrimonial ajustado.
+ - Vacância: Taxa de imóveis vagos no portfólio do fundo.
+ - Quantidade de Ativos: Número total de imóveis ou ativos financeiros do fundo.
+ - IDY (Índice de Dividend Yield): Comparação de rendimento entre o FII e o Ibovespa.
+ - Ibovespa Plus Spread: Diferença entre o retorno do FII e o Ibovespa.
